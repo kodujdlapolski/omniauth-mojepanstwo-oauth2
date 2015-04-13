@@ -4,9 +4,7 @@ module OmniAuth
   module Strategies
     class Mojepanstwo < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site           => "http://mojepanstwo.pl",
-        :authorize_url  => "/oauth/authorize",
-        :token_url      => "/oauth/access_token"
+        :site           => "http://mojepanstwo.pl"
       }
       option :token_params, {
         :parse          => :json
