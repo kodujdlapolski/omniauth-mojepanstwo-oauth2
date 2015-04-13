@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class Mojepanstwo < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site           => "http://mojepanstwo.pl"
+        :site           => "http://mojepanstwo.pl:1234"
       }
       option :token_params, {
         :parse          => :json
